@@ -13,6 +13,10 @@
 		7AB571EF1F0CC0FB005DE2EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AB571EE1F0CC0FB005DE2EE /* Assets.xcassets */; };
 		7AB571F21F0CC0FB005DE2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AB571F01F0CC0FB005DE2EE /* LaunchScreen.storyboard */; };
 		7AB571FD1F0CC0FB005DE2EE /* StockTwitsAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB571FC1F0CC0FB005DE2EE /* StockTwitsAPITests.swift */; };
+		7AB572081F0CC127005DE2EE /* StockTwits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB572071F0CC127005DE2EE /* StockTwits.swift */; };
+		7AB5720A1F0CC133005DE2EE /* Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB572091F0CC133005DE2EE /* Messages.swift */; };
+		7AB5720C1F0CC144005DE2EE /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5720B1F0CC144005DE2EE /* User.swift */; };
+		7AB5720E1F0CC15E005DE2EE /* Links.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB5720D1F0CC15E005DE2EE /* Links.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		7AB571F81F0CC0FB005DE2EE /* StockTwitsAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StockTwitsAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AB571FC1F0CC0FB005DE2EE /* StockTwitsAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTwitsAPITests.swift; sourceTree = "<group>"; };
 		7AB571FE1F0CC0FB005DE2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AB572071F0CC127005DE2EE /* StockTwits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockTwits.swift; sourceTree = "<group>"; };
+		7AB572091F0CC133005DE2EE /* Messages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Messages.swift; sourceTree = "<group>"; };
+		7AB5720B1F0CC144005DE2EE /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7AB5720D1F0CC15E005DE2EE /* Links.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Links.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,10 @@
 			children = (
 				7AB571E71F0CC0FB005DE2EE /* AppDelegate.swift */,
 				7AB571E91F0CC0FB005DE2EE /* ViewController.swift */,
+				7AB572071F0CC127005DE2EE /* StockTwits.swift */,
+				7AB572091F0CC133005DE2EE /* Messages.swift */,
+				7AB5720B1F0CC144005DE2EE /* User.swift */,
+				7AB5720D1F0CC15E005DE2EE /* Links.swift */,
 				7AB571EB1F0CC0FB005DE2EE /* Main.storyboard */,
 				7AB571EE1F0CC0FB005DE2EE /* Assets.xcassets */,
 				7AB571F01F0CC0FB005DE2EE /* LaunchScreen.storyboard */,
@@ -197,7 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AB572081F0CC127005DE2EE /* StockTwits.swift in Sources */,
+				7AB5720E1F0CC15E005DE2EE /* Links.swift in Sources */,
+				7AB5720A1F0CC133005DE2EE /* Messages.swift in Sources */,
 				7AB571EA1F0CC0FB005DE2EE /* ViewController.swift in Sources */,
+				7AB5720C1F0CC144005DE2EE /* User.swift in Sources */,
 				7AB571E81F0CC0FB005DE2EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
